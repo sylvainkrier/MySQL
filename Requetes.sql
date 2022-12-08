@@ -82,8 +82,9 @@ select * from cinema;
 select langue from film;
 select langue, count(*) from film;
 
--- 
+-- 08/12/2022
 create database if not exists `ville` character set utf8 COLLATE `utf8_general_ci`;
+
 use ville;
 select * from villes_france_free;
 select * from departement;
